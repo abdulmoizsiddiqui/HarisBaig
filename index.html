@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haris Baig</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/jpg" href="favicon.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aladin&family=Kaushan+Script&family=Merienda+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merienda+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body {
+      background: #000 url(Designer2.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 100vh;
+      position: relative;
+    }
+    .overlay {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #000;
+      opacity: 0.5;
+      z-index: -1;
+    }
+    .tags {
+      background-image: linear-gradient(to right, red 30%, orange);
+      border-radius: 30px;
+      font-size: 0.8rem;
+      color: white;
+      padding: 5px;
+      margin: 5% 8%;
+      text-align: center;
+      z-index: 1;
+      display: flex;
+      transition: 0.6s;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .tags:hover {
+      background-color: red;
+      background-image: none;
+      text-decoration: none;
+      color: white;
+      padding: 0;
+    }
+
+    .circle {
+      max-width: 23%;
+      padding: 0%;
+      padding-right: 10px;
+    }
+    .startbutton {
+      padding-top: 5%;
+    }
+    .tag-text {
+      padding: 0;
+      font-size: 20px;
+      margin: 6% 0;
+      margin-left: 10%;
+      font-weight: bold;
+    }
+    .heading {
+      text-align: center;
+      color: white;
+      margin-top: 15%;
+      font-family: "Aladin", cursive;
+      font-size: 90px;
+    }
+    .description {
+      text-align: center;
+      color: white;
+      font-family: "Kaushan Script", cursive;
+      padding-top: 2%;
+      font-size: 30px;
+    }
+  </style>
+  <body>
+    <div class="overlay"></div>
+    <br />
+    <h1 class="heading">HARIS BAIG</h1>
+
+    <h3 class="description">Professional Web Developer</h3>
+    <!-- Tag -->
+    <div class="startbutton col-lg-3 col-md-4 col-sm-4 mx-auto">
+      <a class="tags" href="https://www.linkedin.com/in/haris-baig-2400451b6/">
+        <div class="circle">
+          <img src="circle.png" alt="circle" />
+        </div>
+
+        <div class="tag-text">Contact</div>
+      </a>
+    </div>
+  </body>
+</html>
